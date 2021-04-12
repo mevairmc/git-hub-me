@@ -7,12 +7,11 @@ const BASE_URI :string = "https://api.github.com"
 async function getData():Promise<[]> {
     const data:any[]=[]
     const res =await axios.get(`${BASE_URI}/repos/${OWNER}/${REPO}/commits`)
-    await res.data.map((row:any) => {
+    await res.data.map((row:any,idx: number) => {
         data.push({
-            author: row.author.login,
+            idx: idx,
             description: row.commit.message,
             linkConnect: row.html_url,
-            avatar: row.author.avatar_url
         })
     })
     // @ts-ignore
