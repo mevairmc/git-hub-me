@@ -17,7 +17,7 @@ import Avatar from "../img/avatar.jpeg";
                      setData(data.reverse())
                  }
              })
-
+        console.log(data)
          return () => mounted = false;
      },[])
 
@@ -29,9 +29,9 @@ import Avatar from "../img/avatar.jpeg";
                      <p>
                          This is simple list of commits using react, typescript and bootstrap
                      </p>
-                     <p>
-                         <Button href="" variant="primary">Repository</Button>
-                     </p>
+                     <a href="https://github.com/mevairmc/git-hub-me">
+                         <Button variant="primary">Repository</Button>
+                     </a>
                  </Jumbotron>
 
                  <CardDeck style={{
@@ -42,7 +42,7 @@ import Avatar from "../img/avatar.jpeg";
                         <Commit
                              idx={idx}
                              description={row.description}
-                             linkCommit={row.linkCommit}
+                             linkConnect={row.linkConnect}
                          />
                      )}
                 </CardDeck>

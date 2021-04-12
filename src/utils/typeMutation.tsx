@@ -1,6 +1,6 @@
 interface Props {
     idx: number,
-    linkCommit: string,
+    linkConnect: any,
     description: string,
 }
 

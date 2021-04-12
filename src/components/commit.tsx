@@ -1,6 +1,9 @@
 import Props from "../utils/typeMutation";
+//import {Link} from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+// @ts-ignore
+import { Link } from 'react-router-dom';
 
 function Commit(props:Props){
 
@@ -20,7 +23,9 @@ function Commit(props:Props){
                     }}>
                         {props.description}
                     </Card.Text>
-                    <Button href={props.linkCommit} variant="primary">Show Commit</Button>
+                    <a  target="_blank" href={props.linkConnect} >
+                        <Button  variant="primary">Show Commit</Button>
+                    </a>
                 </Card.Body>
             </Card>
         </div>
