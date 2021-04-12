@@ -1,4 +1,5 @@
 interface Props {
+    idx: number,
     linkCommit: string,
     description: string,
 }
