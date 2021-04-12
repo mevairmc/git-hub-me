@@ -1,7 +1,7 @@
 import React from 'react';
 import Octocat from './img/Octocat.png';
 import './App.css';
-import CommitsContainer from './pages/index';
+import CommitsContainer from './pages/main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const OWNER :string = "mevairmc"
-const REPO :string = "ChatChat"
+const REPO :string = "git-hub-me"
 const BASE_URI :string = "https://api.github.com"
 
 async function getData():Promise<[]> {
