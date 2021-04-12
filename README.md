@@ -23,4 +23,7 @@ clone repository in your local, open the folder and run:
 
 Runs the app in the development mode.
 
+## Advice
+New commit need some seconds to be able in Github-API, I recommend refresh the website with "Control + F5" to delete cache
+
 
