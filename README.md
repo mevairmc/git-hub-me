@@ -1,10 +1,20 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with:
 
-## Available Scripts
+###`npx create-react-app git-hub-me --template typescript`
+## Description
 
-In the project directory, you can run:
+This application shows all commits used in this project.
+
+## Technologies
+
+This project use:<br/>
+- React
+- Typescript
+- Bootstrap
+  
+
 
 ### `yarn start`
 
